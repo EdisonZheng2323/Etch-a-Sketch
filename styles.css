@@ -1,0 +1,17 @@
+html, body, .container {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.hovered {
+  background-color: red;
+}
+#reset {
+  
+}
