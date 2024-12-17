@@ -1,17 +1,23 @@
-html, body, .container {
+* {
+  box-sizing: border-box;
+}
+
+html, body{
   height: 100%;
   width: 100%;
   margin: 0px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 .container{
+  width: 800px;
+  height: 800px;
   display: flex;
   flex-wrap: wrap;
-}
-.hovered {
-  background-color: red;
+  justify-content: center;
 }
 #reset {
-  
+  height: 60px;
 }
